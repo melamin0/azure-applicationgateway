@@ -226,7 +226,7 @@
     "rgname": "[resourceGroup().id]",
     "imagePublisher": "paloaltonetworks",
     "imageOffer" : "vmseries1",
-    "version" : "latest",
+    "version" : "7.1.1",
     "nicName": "[parameters('vmName')]",
     "publicIPAddressType": "Dynamic",
     "nsgSetupURL" : "[concat(parameters('baseUrl'),'/nsg-new.json')]",
